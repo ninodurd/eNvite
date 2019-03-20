@@ -13,7 +13,7 @@ class Settings extends Component {
         <div className="setting--img">
         <img src="http://images6.fanpop.com/image/photos/37800000/Cara-Delevingne-3-cara-delevingne-37808721-489-601.jpg"/>
         </div>
-        <img  src={closeIcom} className="close--button" onClick={this.props.userSetting}/>
+        <img  src={closeIcom} className="close--button" onClick={this.props.closeSetting}/>
        
         <div className="input--container">
         <form className="setting--inputs">
